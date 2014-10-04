@@ -16,7 +16,7 @@ Running on OpenShift Online
   ```
   cd <YourAppName>
   git remote add minimal git://github.com/tpdn/Bottle-OpenShift-minimal.git
-  git pull -s recursive minimal master
+  git pull minimal master
   ```
 4. Then push the repo to OpenShift
 
