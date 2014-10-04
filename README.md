@@ -1,4 +1,4 @@
-Bottle-Openshift-minimal
+Bottle-OpenShift-minimal
 ========================
 
 Bottle.py + Python3.3 + OpenShift with Minimal Configuration
@@ -15,7 +15,7 @@ Running on OpenShift Online
 
   ```
   cd <YourAppName>
-  git remote add minimal git://github.com/tpdn/Bottle-Openshift-minimal.git
+  git remote add minimal git://github.com/tpdn/Bottle-OpenShift-minimal.git
   git pull -s recursive minimal master
   ```
 4. Then push the repo to OpenShift
