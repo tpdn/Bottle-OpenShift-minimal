@@ -9,9 +9,11 @@ Running on OpenShift Online
 2. Create a python-3.3 application based on the code in this repository.
 
   ```
-  rhc app create <YourAppName> python-3.3 --from-code https://github.com/tpdn/Bottle-OpenShift-minimal.git
+  rhc app create <YourAppName> python-3.3 \
+    --from-code https://github.com/tpdn/Bottle-OpenShift-minimal.git
   ```
 3. That's it.
+4. 
   ```
     http://<YourAppName>-example.rhcloud.com
   ```
