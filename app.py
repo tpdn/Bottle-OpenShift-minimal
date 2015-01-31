@@ -8,6 +8,6 @@ def index():
 
 if __name__ == '__main__':
     ip   = os.environ['OPENSHIFT_PYTHON_IP']
-    port = 8080
+    port = int(os.environ['OPENSHIFT_PYTHON_PORT'])
     bottle.run(host=ip, port=port)
 
