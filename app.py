@@ -4,7 +4,7 @@ import bottle
 
 @bottle.route('/')
 def index():
-    return 'qwerty'
+    return 'It works!'
 
 if __name__ == '__main__':
     ip   = os.environ['OPENSHIFT_PYTHON_IP']
